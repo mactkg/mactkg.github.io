@@ -1,0 +1,19 @@
+body {
+  font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
+  color: #000;
+  line-height: 1.5em;
+  width:600px;
+  margin: 20px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+  font-weight: lighter;
+}
+
+div {
+  display: block;
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding: 20px;
+}
