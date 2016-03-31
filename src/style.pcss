@@ -1,0 +1,51 @@
+@import "basscss/css/basscss.min.css"
+
+$black: #2F2F2F;
+$white: #F7FBFC;
+$dark-blue: #2C3E50;
+$blue: #2980B9;
+$light-blue: #4AA8E5;
+$red: C0392B;
+
+@font-face {
+  font-family: "main";
+  src: url('assets/Nunito-Regular.ttf');
+}
+@font-face {
+  font-family: "bold";
+  src: url('assets/Nunito-Bold.ttf');
+}
+@font-face {
+  font-family: "light";
+  src: url('assets/Nunito-Light.ttf');
+}
+
+body {
+  font-family: "main", sans-serif;
+  color: $black;
+  line-height: 1.5em;
+  font-size: 20px;
+  background-color: $white;
+}
+
+.wrapper {
+  margin: 28px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "bold";
+}
+
+a {
+  font-family: "light";
+  text-decoration: none;
+  color: $blue;
+
+  &:visited {
+    color: $blue;
+  }
+
+  &:hover {
+    color: $light-blue;
+  }
+}
